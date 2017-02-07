@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'MCorsiva';
+    src: url(MTCORSVA.TTF);
+}
+@font-face {
+    font-family: 'Mcambria';
+    src: url(cambria.ttc);
+}
+
+body {
+    background: url(main.png) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+    margin: 0px;
+}
+.center {
+    width: 300px; /* Ширина элемента в пикселах */
+    height: 400px;
+    padding: 10px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+    background: none; /* Цвет фона */
+}
+
+#mainmenu{
+    margin: auto;
+    padding: 10px;
+    list-style-type: none;
+    width: 200px;
+    text-align: center;
+
+}
+
+#waymenu{
+    margin: auto;
+    padding: 0px;
+    list-style-type: none;
+    width: 300px;
+    text-align: center;
+
+}
+
+#mainmenu a{
+    background-color: #add09c;
+    color: #3a5a25;
+    font-family: "MCorsiva", serif;
+    font-size: 24pt;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    border:solid #77a836 2px;
+    display: block;
+}
+#waymenu a{
+    background-color: #add09c;
+    color: #3a5a25;
+    font-family: Mcambria, serif;
+    font-size: 18pt;
+    padding: 10px;
+    margin: 8px;
+    text-decoration: none;
+    border:solid #77a836 2px;
+    display: block;
+}
+
+table{
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+table td{
+    align-items:center;
+    vertical-align: middle;
+}
+#capture{
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    background: none;
+}
+#capture h3 {
+    padding: 5px;
+    margin: 0px;
+    color: #3a5a25;
+    font-size: larger;
+}
+article{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: solid #77a836 thin;
+    background: rgba(142, 180, 121, 0.67);
+}
+#pictureview{
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    background: none;
+
+}
+#pictureview img {
+    width: 270px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+#inform{
+    font-family: Cambria, serif;
+    color: black;
+    padding: 10px;
+    line-height: 1.4em;
+}
+#tohome{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: none;
+}
+#tohome img{
+    width: 20px;
+
+}
